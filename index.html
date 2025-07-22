@@ -15,60 +15,96 @@
     <header class="header">
         <a href="#" class="logo"><span>Sou</span>rav</a>
         <nav class="navbar">
-            <a href="#" class="active">Home</a>
+            <a href="#home" class="active">Home</a>
             <a href="#aboutme">About</a>
-            <a href="#">Project</a>
-            <a href="#">Education</a>
+            <a href="#project">Project</a>
+            <a href="#contactform">Contact Me</a>
 
         </nav>
-        <a href="#contactform" class="contact">Contact Me</a>
     </header>
-    <section class="home">
+    <section class="home" id="home">
         <div class="home-content">
             <h3>Hi</h3>
             <h1>I'm <span>Sourav V B<br></span>a Frontend Developer</h1>
-            <p>Hi, I'm a passionate Front-End Developer with a strong foundation in creating responsive, user-friendly websites and web applications. I specialize in turning design mockups into functional, accessible, and visually appealing digital experiences using HTML, CSS and Bootstrap.</p>
+            <p>Hi, I'm a passionate Front-End Developer with a strong foundation in creating responsive, user-friendly
+                websites and web applications. I specialize in turning design mockups into functional, accessible, and
+                visually appealing digital experiences using HTML, CSS and Bootstrap.</p>
             <div class="btn-box">
                 <button class="btn-1">Hire Me</button>
                 <button class="btn-2">Resume</button>
             </div>
         </div>
         <div class="img-box">
-            <img src="sourav.jpg" width="250" height="400"alt="my pic">
+            <img src="sourav.jpg" width="250" height="400" alt="my pic">
         </div>
     </section>
     <section class="about" id="aboutme">
         <div class="about-content">
             <h2 class="heading">About <span>Me</span></h2>
             <h3>BCA <span>Graduate</span></h3>
-            <p>I am a passionate learner and tech enthusiast with a keen interest in programming, web development, and creating digital solutions that make a difference.I started my coding journey in high school and have since explored many areas of technology, from frontend design to backend development. Each day, I aim to learn something new and improve my skills.Outside of tech, I enjoy reading, gaming, and exploring nature. I also love working on creative projects and collaborating with others.</p>
+            <p>I am a passionate learner and tech enthusiast with a keen interest in programming, web development, and
+                creating digital solutions that make a difference.I started my coding journey in high school and have
+                since explored many areas of technology, from frontend design to backend development. Each day, I aim to
+                learn something new and improve my skills.Outside of tech, I enjoy reading, gaming, and exploring
+                nature. I also love working on creative projects and collaborating with others.</p>
             <a href="#" class="btn-2">Experience</a>
         </div>
     </section>
-    <section class="contact-form" id="contactform">
-        <h2 class="contact-me">Contact <span>Me</span></h2>
-        <form action="#">
-            <div class="input-box">
-                <input type="text" placeholder="Full Name">
-                <input type="email" placeholder="Email">
-            </div>
-            <div class="input-box">
-                <input type="number" placeholder="Phone Number">
-                <input type="text" placeholder="Subject">
-            </div>
-            <textarea name="" id="" cols="30" rows="10" placeholder="Your Message"></textarea>
-            <input type="submit" value="Send Message" class="btn-1">
-        </form>
-    </section>
-    <footer class="footer">
-        <div class="social">
-            <a href="https://www.facebook.com/"><i class="fa-brands fa-facebook"></i></a>
-            <a href="https://in.linkedin.com/"><i class="fa-brands fa-linkedin"></i></a>
-            <a href="https://github.com/"><i class="fa-brands fa-github"></i></a>
-            <a href="https://www.instagram.com/"><i class="fa-brands fa-instagram"></i></a><br><br>
-            <p class="copyright">&copy; 2025 Sourav. All rights reserved.</p>
+    <section class="project" id="project">
+        <div class="pro-ject">
+            <h1>Smart Cart <span>Product Scanner</span></h1>
+
+            <h3>About the Project</h3>
+
+            <p>
+                The <strong>Smart Cart</strong> revolutionizes the supermarket experience by using AI and Machine
+                Learning
+                to automatically detect products placed into the trolley.
+                A camera mounted on the cart captures product images, which are analyzed in real-time to display details
+                like name, brand, and price—eliminating the need for barcode scanning or employee assistance.
+            </p>
+            <p>Note: This system does not handle billing, only product information display.</p>
         </div>
-    </footer>
+        <div class="img-cart">
+            <img src="cart.png" width="350" height="350" alt="cart">
+        </div>
+    </section>
+    <section class="contact-form" id="contactform">
+        <div class="container">
+            <div class="contact-info">
+                <h2 class="contact-me">Contact <span>Me</span></h2>
+                <p>If you have any questions, feedback, or collaboration opportunities, feel free to get in touch!</p>
+
+                <div class="info"><i class="fas fa-phone"></i> +91 9744641110</div>
+                <div class="info"><i class="fas fa-envelope"></i> souravannm@gmail.com</div>
+                <div class="info"><i class="fas fa-map-marker-alt"></i> Thrissur, Kerala</div>
+
+                <div class="social-icons">
+                    <a href="https://www.facebook.com/"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="https://in.linkedin.com/"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href="https://github.com/"><i class="fa-brands fa-github"></i></a>
+                    <a href="https://www.instagram.com/"><i class="fa-brands fa-instagram"></i></a><br><br>
+                    <p class="copyright">&copy; 2025 Sourav. All rights reserved.</p>
+                </div>
+            </div>
+
+            <div class="form-section">
+                <form>
+                    <div class="form-group">
+                        <input type="text" placeholder="First Name" required>
+                        <input type="text" placeholder="Last Name" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" placeholder="Your Email" required>
+                    </div>
+                    <div class="form-group">
+                        <textarea placeholder="Your Message" required></textarea>
+                    </div>
+                    <button type="submit">Send Message</button>
+                </form>
+            </div>
+        </div>
+    </section>
 
 </body>
 
